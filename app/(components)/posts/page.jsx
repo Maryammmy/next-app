@@ -3,9 +3,7 @@ import React from 'react'
 
 export default async function Posts() {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
-        next: {
-            revalidate: 120
-        }
+     cache:'no-store'
     })
     const posts = await response.json()
   
