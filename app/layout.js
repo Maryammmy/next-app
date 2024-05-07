@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle.js";
 import "./globals.css";
 import Navbar from "./_navbar/page";
 
